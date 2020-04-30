@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             VerifyUserExistance();
         }
     }
-
+    // Verifying user Existance
     private void VerifyUserExistance() {
         String currentUserID = mAuth.getCurrentUser().getUid(); // we will get the id of the current user
         // we are checking for this user Authentication
